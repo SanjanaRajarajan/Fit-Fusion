@@ -1,3 +1,214 @@
+@media (max-width: 425px) {
+    /* Header Section */
+    #header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #logo {
+        height: 250px !important;
+        width: 340px !important;
+        margin-left: 200px !important;
+        cursor: pointer;
+    }
+    
+    #nav {
+        display: flex;
+        flex-direction: row;
+        margin-left: 190px !important;
+        list-style-type: none;
+    }
+    
+    #nav li {
+        padding:0 40px !important;
+        font-size: 30px !important;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5px;
+        background-color: transparent;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    #nav li:hover {
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    /* Home Section */
+    #home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+    
+    #word_logo {
+        height: 80px;
+        width: auto;
+        margin-left: -20px;
+    }
+    
+    #welcome {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 200px;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.5;
+        font-family: "Comic Sans MS", sans-serif;
+        color: white;
+    }
+
+    /* Fixed Video Section */
+    .fixed-top-left-video {
+        margin-left: 240px;
+        width: max-content;
+        height: auto;
+        margin-top: 10px;
+        object-fit: cover;
+        background-color: rgb(17, 17, 48);
+    }
+    
+    /* Top Button */
+    #top {
+        height: 40px;
+        width: 40px;
+        color: white;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    
+    /* Links */
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:hover {
+        color: black;
+    }
+    
+    /* Form Container */
+    #container {
+        position: relative;
+        left: -95px; /* Moves container 20px to the left */
+        width: 90%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    
+    #workout_tracker_heading{
+        text-transform:uppercase;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-family: comic sans MS;
+    text-align: left;
+    }
+    
+    h2 {
+        font-size: 20px;
+        font-family: "Comic Sans MS", sans-serif;
+    }
+    
+    #add, #schedule {
+        margin: 10px 0;
+        height: 65px !important;
+        width: 100%;
+        padding:0 10px;
+        border: solid black;
+        border-radius: 10px;
+        font-size: 34px !important;
+        font-family: comic sans MS;
+        letter-spacing: 2px;
+        font-weight: bolder;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    #add:hover, #schedule:hover {
+        border: solid red;
+        color: white;
+        background-color: black;
+    }
+    
+    #delete {
+        margin: 10px auto !important;
+        padding: 10px 40px !important;
+        border: solid black;
+        border-radius: 10px;
+        font-size: 25px !important;
+        font-weight: 600;
+        font-family: comic sans MS;
+        letter-spacing: 1px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    input {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 60px !important;
+        width: 420px;
+        border: solid black;
+        border-radius: 10px;
+        font-size: 25px !important;
+        letter-spacing: 2px;
+        font-family: comic sans MS;
+        font-weight: 600; /* Forces the font size */
+}
+
+#task_scheduler{
+    font-size: 30px !important;
+    letter-spacing: 2px;
+    font-family: comic sans MS;
+    font-weight: bold;
+}
+#workout_length{
+    font-size: 30px !important;
+    letter-spacing: 2px;
+    font-family: comic sans MS;
+    font-weight: bold;
+}
+
+    /* Task Scheduler Section */
+    #create_task {
+        margin-bottom: 20px;
+    }
+    
+    #create_task li {
+        list-style-type: none;
+        width: 90%;
+        padding:0 10px;
+        border: solid rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        font-size: 25px !important;
+        letter-spacing: 2px;
+        font-family: comic sans MS;
+    }
+    
+    #task_scheduler, #workout_length {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width:1440px){
 #header{
     display: flex;
     
@@ -161,8 +372,6 @@ input{
     font-size: 20px;
 }
 
-
-
 #task_scheduler{
     text-align: center;
     padding-top: 30px;
@@ -176,3 +385,5 @@ input{
     font-size: 22px;
     font-weight: 700;
 }
+}
+
