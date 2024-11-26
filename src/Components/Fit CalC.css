@@ -1,3 +1,112 @@
+@media(max-width:425px){
+    #calc_container {
+        position: relative;
+        left: -125px; /* Moves container 20px to the left */
+        width: 100%;
+        padding:0 50px;
+        display: flex;
+        margin-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    
+    
+    label{
+        font-size: 30px !important;
+        letter-spacing: 2px;
+        font-family: comic sans MS;
+        font-weight: 400;
+    }
+    
+    #intake input{
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 50px;
+        width: 420px;
+        border: solid black;
+        border-radius: 10px;
+        font-size: 30px !important;
+        letter-spacing: 2px;
+        font-family: comic sans MS;
+        font-weight: 600;
+    }
+    
+    #calorie_calculator{
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: comic sans MS;
+    }
+    
+    #define{
+        text-align: center;
+        font-size: 30px;
+        margin-left: 150px;
+        font-family: comic sans MS;
+    }
+    
+    #result{
+        text-align: center;
+        font-size: 19px;
+        font-family: comic sans MS;
+    }
+    
+    select{
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 60px !important;
+        width: 430px;
+        font-size: 30px !important;
+        letter-spacing: 2px;
+        font-family: comic sans MS;
+        border: solid black;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    
+    #cont2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    #calculate{
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        font-size: 30px !important;
+        letter-spacing: 2px;
+        font-family: comic sans MS;
+        font-weight: 600;
+        cursor: pointer;
+        margin-left: -20px !important;
+    }
+    
+    #calculate:hover,#reset:hover{
+        background-color: black;
+        color: white;
+        border: solid red;
+    }
+    
+    #reset{
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: none;
+        font-size: 30px !important;
+        letter-spacing: 2px;
+        font-family: comic sans MS;
+        font-weight: bolder !important;
+        cursor: pointer;
+        margin-left: 160px !important;
+    }
+    
+}
+
+@media(max-width:1440px){
 #calc_container{height: auto;
     width: 500px;
     display: flex;
@@ -79,4 +188,5 @@ select{
     font-weight: 600;
     cursor: pointer;
     margin-left: 100px;
+}
 }
