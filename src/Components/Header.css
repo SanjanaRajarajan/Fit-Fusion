@@ -1,0 +1,178 @@
+#header{
+    display: flex;
+    
+}
+
+#logo{
+    height: 80px;
+    width: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#nav{
+    display: flex;
+    margin-left: 700px;
+    list-style-type: none;
+}
+
+#nav li{
+    padding: 0 15px;
+    font-size: 21px;
+    font-weight: bold;
+    height: 30px;
+}
+
+#nav li:hover{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 30px;
+    width: max-content;
+}
+#home{
+    display: flex;
+}
+
+#word_logo{
+    height: 100px;
+    width: auto;
+}
+
+#welcome{/* Aligns it to the top */
+     /* Aligns it to the left */
+    width: 600px; /* Makes the video occupy half the viewport width */
+    height: 500px;
+    line-height: 3;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px; 
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family:comic sans MS;
+    color:white;
+}
+
+.fixed-top-left-video {
+     /* Fixes the video in the viewport */
+    margin-top: 10px; /* Aligns it to the top */
+    left: 0; /* Aligns it to the left */
+    width: 600px; /* Makes the video occupy half the viewport width */
+    height: 500px; /* Makes it occupy the full viewport height */
+    object-fit: cover; /* Ensures the video fills its area proportionally */
+    /* Places the video behind other elements */
+    background-color: rgb(17, 17, 48);
+  }
+  #top {
+    height: 50px;
+    width: 60px;
+    color: white;
+    position: sticky;
+    top: 0; /* Sticks the element at the top of the viewport */
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+#container{
+    height: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255,0.3);
+} 
+
+
+
+h2{
+    font-size: 25px;
+    font-family: comic sans MS;
+}
+
+#add,#schedule{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    height: 40px;
+    width: 330px;
+    border: solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#delete{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 45%;
+    padding: 5px 10px;
+    border: solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#add:hover,#schedule:hover{
+    border: solid red;
+    color: white;
+    background-color: black;
+}
+
+input{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    height: 40px;
+    width: 420px;
+    border: solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#create_task{
+    display: inline;
+    margin-bottom: 30px;
+}
+
+#create_task li{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    border: solid rgb(0, 0, 0,0.5);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+
+#task_scheduler{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#workout_length{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+}
